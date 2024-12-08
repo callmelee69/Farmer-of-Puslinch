@@ -1,0 +1,1182 @@
+:: StoryTitle
+Farmer of Puslinch
+
+
+:: StoryData
+{
+  "ifid": "D8D6B6A8-549A-49B3-ABAE-51991ACC22E2",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: \ A Break in the Weather {"position":"1075,6525","size":"100,100"}
+ A Break in the Weather
+ 
+After weeks of gruelling weather, there is finally an opening in the weather. Much of the snow has melted and the sun shines bright, melting the ice and a sense of warmness makes you believe that the first signs of spring are here. Settlers whisper that such breaks in harsh winters often precede even greater storms—a belief tied to records kept by those who came before.
+
+Consulting your resources, you consider the signs:
+ Jeff, a man that you met at the local animal auction last summer while purchasing some of your livestock, told you about the weather patterns. He mentioned the sudden temperature spikes and drops suggesting that in the past few years, unpredictable storms have been coming through the township.
+ Jeff- my grandfather told me about how he barely survived "The Frostveil Winter". 
+ 
+ 
+ [[Prepare for the Next Storm]]
+ Fortify your home and barn, stockpile supplies, and brace for potential devastation. It’s a cautious approach but limits your ability to expand resources.
+Outcome: Increases resilience but delays economic or agricultural growth.
+[[Expand the Farm]]
+ Use the respite to repair fences, plant early crops, or invest in new structures. It’s ambitious but risks leaving you unprepared for another storm.
+ Expands resources but makes the farm more vulnerable to future damage.
+
+
+
+
+:: \ ASwingAndAMiss {"position":"1387.5,3150","size":"100,100"}
+You step forward, with all of your might. You swing mightily at the first employee, and he lifts off the ground for a second before falling prone, unconcious. Through this, the other two men scramble for their weapons. In this time, you're able to grab the weapon from the unconcious one, and use it to fire triumphantly into the second henchman. You turn the gun onto Pendell Sauvage, who freezes in shock.
+
+[[ "Leave and never return -> FarewellToArmsEnding]]
+
+
+:: \ ApproachFigure {"position":"887.5,2525","size":"100,100"}
+You approach the figure, who immediately sprints off into the bush. You wish to chase after, however fatigue claims you, forcing you back to your bed. You continue to work on your farm for the next weeks, keeping the thought in your head.
+
+Before you move on, you feel the wind pick up.
+
+[[Weather Event 2]]
+
+
+:: \ AskMoreQuestions {"position":"1137.5,3650","size":"100,100"}
+“You could never understand. I will bring wealth the likes of which this shithole of a town has never seen before. And who are you to stop me?” His expression turns calmer, the fight to control his emotions growing in intensity. “No matter. The time to talk has passed; action must be taken.”
+
+[[Rush him while his guard is down -> RushTheBastard]] 
+[["Tomorrow, noon, Guelph. We duel to end this.” -> DuelTheBastard]] 
+
+
+
+:: \ AskQuestions {"position":"575,2525","size":"100,100"}
+\:: If you ask more questions:
+
+“Well son, the offer is a bit of a lowball for what I want to do with it. But by the looks of you… you can’t really afford to not take it. You’re starved, by the looks of it. You can try to outlast me, starve to death in the winter, or you can shake my hand and be free of it. Your choice.” He extends his hand again.
+
+[[ Take the deal -> PendellSale0]] 
+[[Think it over and walk out of the Sauvage Mansion-> WalkOutDenOfOpulence]]
+
+
+:: \ BitchMade {"position":"1137.5,2900","size":"100,100"}
+“Good, son. Now, I’ll be back.” His gaze breaks from you to the farm buildings. “It’s lovely what you’ve built here. Let’s keep it like that.” He rides off back into Guelph, with no other words. The days between your next run in with Pendell would be short, however; one fateful night, you awake to the sound of chatting outside your house.
+
+[[ Go investigate the noise -> FarewellToArms]]
+[[ Go back to bed -> PassOut2]]
+
+
+:: \ BuyLantern {"position":"637.5,1900","size":"100,100"}
+
+
+“Excellent choice!” The shopkeep says. Your coinpurse empties out, it is now just a small leather bag, but you feel significantly safer with your item.
+
+[[ Leave the store, thanking the shopkeep -> LeaveStore]] 
+
+
+:: \ BuyRifle {"position":"762.5,1900","size":"100,100"}
+
+
+“Excellent choice!” The shopkeep says. Your coinpurse empties out, it is now just a small leather bag, but you feel significantly safer with your item.
+
+[[ Leave the store, thanking the shopkeep -> LeaveStore]] 
+
+
+:: \ BuySeeds {"position":"637.5,1775","size":"100,100"}
+
+
+You ask the storekeep for some seeds, which he happily obliges. Wheat and barley, both crops that are not only vital to keep yourself fed, but decent profit for whatever you don’t need. “Anything else I can grab for ya?” The storekeep asks. Your coinpurse feels rather light.
+
+[[Buy a small oil lantern -> BuyLantern]]
+[[Buy a rusty old rifle -> BuyRifle]]
+[[ Walk out, conserving your coin -> LeaveStore]]
+
+
+
+:: \ Civility {"position":"512.5,2150","size":"100,100"}
+
+
+You tap your knuckles against the oak doors. The house, painted a light red colour, seems to be staring down at you; perhaps a rather telling sign that you’re stepping into a den of opulence. After a few seconds, the door unlocks. Out steps a well dressed man, the light reflecting on his older, scrunched face. He’s dressed in fancier clothes, and his figure strikes as one of importance. “Can I help ya, mate?” His voice rings out with a British twang. You introduce yourself, and his ears perk up: “oh! So you’re the upstart farmer that I’ve written to?” He extends his hand, and you shake it, his grip firm and unwavering. “Pendell Sauvage. Pleasure to meet ya. Please, come in, I’ll have Margaret make some tea. We have much to discuss”. He steps out of the way, allowing you to step into his mansion. 
+
+[[ Walk in -> DenOfOpulence]]
+
+
+:: \ ConfrontPendell {"position":"1012.5,3400","size":"100,100"}
+Pendell, shillouetted by moonlight, regards you with indifference. His fine suit almost gleaming in the midnight glare. “Well, it seems the vermin have come back to the nest. Tell me, why did you have to come, intervene in things that you have no business in?”. His voice is annoyed; it is obvious he considers himself over this. You notice a similar leather holster to the man in the bar on his hip. 
+
+[[“Because it was right; you’re a monster, a capitalist, and you deserve what’s coming.” -> MoralHighRoad]]
+[[“This county has been terrorized by you for far too long. You’ll stop at nothing to rip everything from the community. It’s time someone stood up to you.” -> JusticeForTheCounty]]
+[["Because fuck you?'' -> LmaoLol]]
+
+
+
+:: \ CreditsGeneral {"position":"1075,7150","size":"100,100"}
+CREDITS:
+
+Spring (and assorted weather events) - Graeme
+Summer - Lee
+Fall - Diego
+Winter - Alexander
+
+Coding Done by Lee, Alex, and Graeme
+
+Special thanks to Dr Kim Martin, the Wellington County Archives, and the representatives of PARO; most importantly, THANK YOU!
+
+This is a CTS Buddies production
+[[ Start from the beginning ->Untitled Passage]] 
+[[ Start from Summer -> SummerStart]] 
+[[ Start from Fall -> FallStart]] 
+[[ Start from Winter -> WinterStart1]] 
+
+
+:: \ CurbStomped {"position":"1262.5,3150","size":"100,100"}
+GAME OVER
+
+Your inquiry falls on deaf ears as his two associates lunge at you. They beat you bruised and senseless, and have you run out of town. Nobody knows fully what happened to you, but they know that Pendell took the farm, expanding his growing mass of property.
+
+ENDING: I Fought the Rich (And the Rich Won)
+
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: \ DenOfOpulence {"position":"512.5,2275","size":"100,100"}
+
+
+You walk into the house, fine art strewn across the walls. You can’t place specific names, but you see a photo of what can only be described as two guys talking in a forum of some sort; perhaps it’s Greek art? He pulls out a chair at a small table, strewn with paperwork. “Please, don’t stare too hard at the Raphael, you might start speaking Greek to me!” He chuckles, only to himself. His expression morphs back to a slight smile. “Please, take a seat.”
+
+[[Sit down across from Pendell -> SeatTaken]]
+
+
+:: \ DiveForGun {"position":"1137.5,3150","size":"100,100"}
+Instincts take over. You lunge back inside, grabbing your trusty rifle you bought at the beginning of the year. Loaded with only a few bullets, you take aim at the two men flanking Pendell.
+
+[[Game of chance: do you hit them? ->FarewellMiss]]
+[[ Could pick this one, might be good -> FarewellHit]]
+[[ This one seems unlucky, best to stay away->FarewellMiss]]
+
+
+
+
+:: \ DuelTheBastard {"position":"1012.5,3650","size":"100,100"}
+Pendell laughs a hearty, posh, fake laugh. “Son, have you lost your goddamn mind?” He hides his holster over the side of his coat, clearly deeming you to be insane. “You know what? Fine, it’s no loss to me.” He walks past you, chuckling to himself. “See you tomorrow, son. Rest well.” That night, your dreams are consumed with what could happen tomorrow. You saw what he has done to others, and what he no doubt will do to you. You toss and turn, sitting up at the crack of dawn.
+
+[[ Run away, your life isn't worth losing -> RunRunaway]]
+[[ If you have no rifle, go grab it! -> GoToStore]]
+[[ Go to the centre of town, ready to face him -> PendellDuel]]
+
+
+:: \ FallStart {"position":"887.5,4275","size":"100,100"}
+FALL (Diego)
+
+As a farmer in Puslinch, you have followed the same traditions your father taught you many years ago, but Puslinch is slowly growing more and more and with that comes the need for change. 
+
+
+Rumours have reached the town of a new railway that may cut through Puslinch to connect Wellington County to larger cities like Hamilton and Toronto. This could be great for your business but it can also be dangerous as developers may want your land and competition with urban farms won't be easy
+
+[[Begin the season! -> FallStart0]]
+
+
+:: \ FallStart0 {"position":"775,4400","size":"100,100"}
+As you're walking downtown you see some of your fellow farmers around a group of men in suits, as you get closer one of them introduces himself.
+The man in the fine suit turns to greet you; “I am Mr.Lane. I'm sure you've heard the news on the new railway?” he invites you to sit down with him at a table full of maps and contracts. “This will revolutionize Puslinch and your land will be perfect, we will compensate you accordingly”
+
+He hands you a contract and you are taken back by the amount, it is enough to start all over again somewhere else. He gives you 2 days to think, What would you do?
+
+
+[[ Sell the land -> LandSell]]
+[[Negotiate -> Negotiate]] 
+
+
+:: \ FarewellHit {"position":"1262.5,3275","size":"100,100"}
+Clearly unexpecting this, you catch the two men completely off guard. You hit the first one in the leg, his massive frame tumbling to the muddy ground, and the second one can’t draw quick enough. The bullet rips through the air into his arm, and he collapses to the ground. At last, you draw your sights on Pendell. “Hey, now, son. No need for this to turn bloody”. You have Pendell at your mercy.
+
+[["Leave and never return -> FarewellToArmsEnding]]
+
+
+:: \ FarewellToArms {"position":"1262.5,3025","size":"100,100"}
+You walk outside to see a gang of men, headed by Pendell Sauvage at your doorstep; he carries a firestarter. The reaction of your door opening sparks panic into him, who makes no effort to conceal why he’s here. “Well, son. You’ve caught me. You’ve stood in my way for far too long, and it’s about time you came to your senses.” His henchmen, both muscle clad and staring intensely into you, smirk slightly. “What will it be, son? Shall we settle this right now?”
+
+[[ "What do you mean?" -> CurbStomped]]
+[[ Lunge forward, swinging -> ASwingAndAMiss]]
+[[ If you have the rifle, dive inside and grab it -> DiveForGun]]
+
+
+:: \ FarewellToArmsEnding {"position":"1387.5,3275","size":"100,100"}
+The businessman gets the hint. You watch him saddle up, turning tail back to Guelph. You breathe a sigh of relief, believing that this nightmare is over. You turn your attention to the two henchmen, patching up their wounds and giving them similar instructions, before heading back to bed. You feel a sense of relief, believing the scourge on your property to be gone.
+
+[[ Continue the Story -> FarewellToArmsEnding2]]
+
+
+:: \ FarewellToArmsEnding2 {"position":"1387.5,3400","size":"100,100"}
+The next weeks are filled with hard work and sweat. Pendell still lives here, yes, but he hasn’t stopped by Puslinch to your knowledge; at least, he hasn’t dared to bother you. You work tirelessly until the fall comes, taking stock at your farm. It’s not much, but it is yours, and you proved you can fight for it.
+
+YOU WIN!
+ENDING: Farewell to Arms
+
+[[ Continue to Fall! -> FallStart]]
+[[ Let's try for the other endings! -> SummerStart]] 
+
+
+:: \ FightTheBastard {"position":"887.5,3650","size":"100,100"}
+“And how do you suppose that will go?” He reaches instinctively for his holster. The tension hangs steep in the air.
+
+[[ “We meet tomorrow, in the middle of Guelph. We settle this at noon.” -> DuelTheBastard]]
+
+[[ Rush the Bastard -> RushTheBastard]]
+
+
+:: \ FocusElsewhere {"position":"1262.5,5275","size":"100,100"}
+
+*Focus Resources Elsewhere:* Use your supplies to expand your farm, plant extra crops, purchase additional animals, or build tools to increase efficiency. It’s a gamble that could lead to prosperity or leave you vulnerable to nature’s fury.
+
+Unfortunately, this leaves you vulnerable to Mother Nature's wrath; your farm is swept up in a tornado, and your property is now desitute.
+
+[[ Try again? -> WinterStart1]]
+
+
+:: \ GeneralShoppe {"position":"637.5,1650","size":"100,100"}
+
+
+You find passage into town, via horseback. The journey takes a few hours, but you arrive in high spirits for the season. You see a general store, offering some good prices on crops you will need.
+
+You walk through the oak doors of the store, a small bell jingling as you make your way in. Inside is a rather dim storefront, containing various goods a farmer might need. While you take in everything, a young man pops up behind the counter. His voice is sweet and light as he greets you. “Anything I can grab for ya?”
+
+[[ "Looking for some crops, what do you have?-> BuySeeds]]
+
+
+:: \ GetShotByTheBastard {"position":"1012.5,3900","size":"100,100"}
+GAME OVER
+
+You rush forward, fist clenched. You take a first step forward as you see his eyes widen, his hand instinctively flying to his holster. You take a second step, and are met with the barrel of a silver revolver staring at you. You take a third step as a loud bang screams out. You don’t take another step, as your momentum carries you into the dirt; the bullet pierces your chest.
+
+ENDING: Pendell Shot First
+
+[[ Let's do it all again! -> SummerStart]] 
+
+
+:: \ GoRiding1 {"position":"637.5,2275","size":"100,100"}
+\:: If you decide to go riding:
+
+You saddle up on your steed, without a second thought of where you’re going. You ride for what seems like hours until, by fate it seems, you come across a quaint building in the middle of a nearby town. You read the sign; “THE BOTHERED HEN”, decorated in faded paint and hoisted on a signpost that has been worn down by time. no recollection of the place strikes your mind. With a couple of coins in your pocket from some jobs you had worked for the neighbours to your farm clutched firmly in your palm, and you walk in.
+
+Through the doors you see a large area, filled with very many tables with very few patrons. You rock up to the barside and sit down, where a young man dressed in a fine shirt comes to greet you. “Late night, eh farmer?” His voice is thick with a local accent. 
+
+[[ Order a water -> OrderDrink]]
+[[Order a lager -> OrderDrink]]
+
+
+:: \ GoToStore {"position":"1137.5,3775","size":"100,100"}
+You wander into the general store, with only a couple of shillings to your name. The store clerk recognizes you as the oak doors swing open: “Hey! Welcome back, here for your daily seed fix?” You shake your head, explaining the situation. He pops to the back and hands you a rusty rifle. “You can use this. It’ll be for rent though; one way or another, you won’t be needing it after this!” He laughs as you take the rifle, thank him, and walks out. Before you leave, he says “Thank you for this. Pendell tried to buy my shop as well. He threatened my family and my safety.” he pauses to draw breath. “You’re doing a good thing.” You walk out, into the street, ready to meet Pendell.
+
+
+[[Prepare to duel Pendell -> PendellDuel]] 
+
+
+:: \ GoodBadAndSauvage {"position":"1262.5,4025","size":"100,100"}
+You find your rifle, and you fire it, the recoil kicking the rifle up in your hand. Your vision goes black, as you brace for impact...
+
+[[ Continue the Story -> GoodBadSauvageEnding]]
+
+
+
+:: \ GoodBadSauvageEnding {"position":"1262.5,4150","size":"100,100"}
+You open your eyes to Pendell Sauvage on the ground, collapsing. His injuries would prove too much to bear, and he would pass away in front of you. You take the brief time to collect yourself before you walk off to a group of folks celebrating this outcome. You go back to your farm, satisfied that the scourge is over, as the cold of fall sweeps in. You survived, thrived, and now await for what fall has to bring…
+
+ENDING: The Good, The Bad, and The Sauvage
+
+
+[[ Continue to Fall! -> FallStart]]
+[[ Let's try for the other endings! -> SummerStart]] 
+
+
+:: \ IgnoreLetter {"position":"637.5,1525","size":"100,100"}
+
+
+You decide to ignore the note for now. It might just be an ad for a new paper, or maybe some new bill you can’t pretend to care about voting on. You start to walk to your horse, purse of coin in hand, ready to see what the season will bring.
+
+[[ To town you go! -> GeneralShoppe]]
+
+
+:: \ InterventionInbar {"position":"762.5,2900","size":"100,100"}
+You decide that enough is enough. You walk up to the man on the barstool, cocking your fist back. He barely is able to turn to face you before your fist connects with his cheek. He falls to the ground, blood pouring out of his mouth and pooling on the floor. The barkeep looks stunned as the man lays on the ground, as you turn to him. Aghast, he sputters out approval as you hear chatter outside. 
+
+[[ Run. NOW. -> SprintOut]]
+
+
+
+:: \ JustADeer {"position":"887.5,2650","size":"100,100"}
+Exhaustion forces you to bed, and you manage to sleep, still not coming to any conclusions. You continue to work on your farm for the next weeks, keeping the thought in your head.
+
+[[Work at your farm ->Weather Event 2]]
+
+
+:: \ JusticeForTheCounty {"position":"1137.5,3525","size":"100,100"}
+“You don’t understand, son. I come from a family far more wealthy than you’d ever known. This? This is mercy. You’re blinded by your own ideals to the truth. This county needs me.”
+
+[[ “Does it now?” -> AskMoreQuestions]] 
+[[ “The time for talk has ended. Let’s settle this.” -> FightTheBastard]] 
+
+
+:: \ LandSell {"position":"887.5,4525","size":"100,100"}
+You decide a change of scenery will be good, and even though the land is important for you and your family you decide to look for other opportunities outside of Puslinch. You decide to go to Guelph and live a peaceful life.
+
+Years later you visit Puslinch for the first time and you are taken back by how much it has grown. The once-farming town is now an urbanized town full of houses, hotels and stores. You visit the land that was once your farm and you are taken back as the farm is still there, but it has expanded a lot and at that moment you regret selling the farm.      
+
+[[ Game over. Start again? -> FallStart]] 
+
+
+:: \ LanternHit {"position":"762.5,3275","size":"100,100"}
+You light the lantern, confident in your ability. You let the lantern free from your hand, and time seems to slow as the lantern arcs through the air. Your assailant’s eyes tell the story; the makeshift weapon hits true, sending a wave of glass and fire directly to him and his horse. You don’t bother to turn around, as you keep riding all the way to your farm. Waiting for you is a familiar man: Pendell Sauvage.
+
+[[ Confront the Businessman -> ConfrontPendell]] 
+
+
+:: \ LanternInRucksack {"position":"637.5,3150","size":"100,100"}
+You find your oil lantern, a container of gas suspended in a glass container; a metal holding tray keeping the liquid suspended. You find a way to start the fire, taking one good look at your foe.
+
+[[ This is a game of chance; click here to test your luck! -> LanternMiss]]
+[[ This is a game of chance; click here to test your luck! -> LanternMiss]]
+[[ This is a game of chance; click here to test your luck! -> LanternHit]]
+
+
+
+:: \ LanternMiss {"position":"637.5,3275","size":"100,100"}
+GAME OVER
+
+You let the lantern fly true to the target, turning to throw it at your assailant. You watch as the lantern arcs through the air, and the assailant’s reaction turns from one of stunned fear to sly amusement as it lands sadly in the mud. The fire expands rapidly over the muddy ground as he aims his weapon and strikes true. Your body is discovered the next day, laying face down in the muddy road to your property.
+
+ENDING: Not So Dexterous
+
+[[ Let's do it again! -> SummerStart]]
+
+
+:: \ LeaveBar {"position":"762.5,2525","size":"100,100"}
+
+
+You get on your horse and leave the bar, heading back to the farm. You get back and go to rest. Through the next few days, you hear rumours that the Hen was burned to the ground, and the barkeep you met was chased out of town for his alleged relationship with a local barnhand.
+
+[[ Continue to work on your farm -> PendellMeeting2]]
+
+
+:: \ LeaveStore {"position":"512.5,1900","size":"100,100"}
+
+
+“Take care! Hope to see ya back!”
+
+You swing the door open, and the sun stings your eyes for a few seconds. It is midday, plenty of sunlight left, but plenty of time to sort out anything you need to do in the city.
+
+[[ If you read the note, go to the Sauvage house -> SauvageHouse]]
+[[ Go back to the farm, ready to begin work -> ReturnToFarm0]]
+
+
+:: \ LmaoLol {"position":"887.5,3525","size":"100,100"}
+“Pah. Such poor manners, son. I knew you were a no-good jackanape from the day you dragged yourself to my manor. So, how will this end?”
+
+[[ “Let’s end this now, once and for all.” -> FightTheBastard]]
+[[“I want this to be public. Guelph town centre, tomorrow. We meet at noon.” -> DuelTheBastard]]
+
+
+
+
+:: \ MidnightFirefight {"position":"887.5,4150","size":"100,100"}
+The few weeks between that fateful night and fall were all but consumed by farmwork; the harvests come in well enough to give you some money and a decent stockpile to fall upon. The events of the night draw investigation by the local law enforcement, but they can never find anything to connect you to his disappearance; partially because your tracks were hidden well, partially because he burnt every bridge that could possibly detail his whereabouts, or that of his killer.
+
+Fall has come; you sit back on the porch of your shabby house, taking in the animals and the late growth of crops as the cool winds take precedent. You smile out at your accomplishments; no matter what, it’s yours. And that is something worth fighting for.
+
+YOU WIN! 
+ENDING: Midnight Firefight
+
+[[ Continue to Fall! -> FallStart]]
+[[ Let's try for the other endings! -> SummerStart]] 
+
+
+:: \ MoralHighRoad {"position":"1012.5,3525","size":"100,100"}
+“A monster? No, my friend, a visionary. I will turn this county into the second Garden of Eden, and I will not let simpletons like yourself stand in my way.” The anger in his voice is obvious as he grits his teeth. “I tried to do this diplomatically, let you run off with something in your purse.” He pauses, regarding the lack of anyone following you. “But it seems you’ve crossed a line. Pah, no matter. I plan to settle this.”
+
+[[ “And how do you plan on doing that?” -> AskMoreQuestions]]
+[[“The time for talk has ended. Let’s settle this.” -> FightTheBastard]] 
+
+
+
+:: \ Negotiate {"position":"1012.5,4525","size":"100,100"}
+While talking with other farmers you realize that you could get more for your land, but you think of a better plan. You meet with Mr. Lane and propose a new deal.
+
+“Thank you for meeting with me Mr. Lane, I want to propose a new deal. I will sell the part of my land where the train will pass, but not all my land”
+
+It takes Mr. Lane some time but he finally agrees. The next few months the construction began, and even though it affected the farm for some time it ultimately helped you hit a new market in Toronto.
+
+A year later Mr. Lane comes back to the farm, and he has a new proposition.
+“How are you doing?  I wanted to offer you a business opportunity. Are you interested in selling more parts of your land?”
+
+You are surprised but decide to hear what Mr. Lane has to offer.
+
+“As you have seen Puslinch has evolved enormously, I know you have seen the success of John Hewers hotel as well as Charles Willoughby selling parts of his land for the community and other businesses. So what do you think?” 
+
+[[ Sell the land; deal seems to be the right move -> SellLand2]]
+[[ Refuse to sell -> RefuseToSell]]
+
+
+:: \ NextChoice0 {"position":"1137.5,5650","size":"100,100"}
+With only basic instruments at your disposal, a barometer, a wind vane, and your sharp senses, you must decide how to predict the coming weather. Historical patterns can help, but so can the wisdom of locals, whose folklore offers unique insights into nature’s behaviour.
+[[Trust Local Folks ->trustlocalfolk]]
+[[Use your instruments to prepare -> basic instruments]]
+
+
+:: \ NextStepSummer0 {"position":"637.5,1400","size":"100,100"}
+
+
+You open the door to find a small piece of parchment on your front porch; a letter. How odd!
+
+[[Ignore the letter, and go out to the town -> IgnoreLetter]]
+[[ Open it; what does it have to say? -> ReadLetter]]
+
+
+:: \ NothingInRucksack {"position":"762.5,3150","size":"100,100"}
+GAME OVER
+
+Lack of preparation hurts. You find nothing in your bag, before the clopping of hooves catches up to you. You hear a loud bang as your body goes limp, the last thought racing through your mind being of that store. 
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: \ OrderDrink {"position":"637.5,2400","size":"100,100"}
+“Excellent choice!” The bartender disappears before handing you your drink. You sip on it, the cold on your tongue a welcome gift. You check out the other patrons, as you spot a sour older man on the other end of the bar. He’s face down on the bar, head in his arms. It looks like he’s been crying into his drink
+
+[[ Ignore him and leave -> LeaveBar]]
+[[ Speak to the man -> TalkToMan]]
+
+
+:: \ PassOut1 {"position":"637.5,2150","size":"100,100"}
+
+
+You drift off to sleep, anxiously awaiting the new season. You keep the parchment paper on your nightstand as a reminder of what could be, as you work tirelessly to prepare for the winter. You plant your crops and maintain them, much as you had done previously, but the offer keeps ringing in your mind. It all culminates just a week after you first received the offer from Sauvage. You can’t sleep, the offer swirling in your head; you can leave now and have enough funds to survive - hell, even thrive anywhere else, or you can stay on your farm and keep what feels like your dignity intact. Your mulling turns to frustration, as no option seems like it would work. Annoyed, you sit up out of bed.
+
+[[ Go riding to clear your head-> GoRiding1]]
+[[ Walk your property and mull it over-> WalkTheFarm]]
+
+
+:: \ PassOut2 {"position":"1387.5,3025","size":"100,100"}
+GAME OVER
+
+You turn over, deciding whatever it is isn’t worth your time. You go back to sleep, blissfully unaware of the gang of men headed by Pendell outside. When you next awake, your house is alight with fire. You panic, attempting to sprint to the door, but the inferno has consumed the entryway; as you run to the window, a beam from the roof lands on you, trapping you in the blaze. Your body is found later among the burnt remnants of your house, having succumbed to the inferno. The local authorities are all too quick to label it a terrible accident.
+
+ENDING: Up in Flames
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: \ PendellCreek {"position":"887.5,4025","size":"100,100"}
+You hoist the body onto the back of your steed, and race off to Fletcher’s Creek. You unsaddle and take the body of Sauvage, still dressed in his pristine outfit, and you set his body into the creek. It sinks to the bottom, and you ride through the night, back home.
+
+[[ Continue the Story -> MidnightFirefight]]
+
+
+:: \ PendellDuel {"position":"1137.5,3900","size":"100,100"}
+
+The sun is high in the air, at the centre of town. You and Pendell stare each other down, filled with prying eyes aplenty. You lock eyes with Pendell, stepping the requisite distance away. The tension in the air can be cut with a knife.
+
+[[Game of chance: his life or yours! -> PendellShootsFirst]]
+[[You gotta pick one, and hope you’re right -> PendellShootsFirst]]
+[[No pressure, just your life on the line -> PendellShootsFirst]]
+[[Don’t worry, not many will miss him -> PendellShootsFirst]]
+[[Yeah, you’re gonna shoot first. It’ll be sick -> PendellShootsFirst]]
+[[Click this one! It’ll work I swear! -> GoodBadAndSauvage]]
+
+
+
+:: \ PendellGrave {"position":"1012.5,4025","size":"100,100"}
+ The work was long and strenuous, as you prepare a small opening in the earth for the tycoon-to-be. After hours of digging, you lay the pristine suit of Pendell Sauvage into the hole, near the bush in your property. A few hours later, and the ground is settled like it never happened. You take yourself back home, the warmth of your bed enveloping you.
+ 
+ [[ Continue the Story -> MidnightFirefight]] 
+
+
+:: \ PendellIsPissed {"position":"1137.5,2775","size":"100,100"}
+He shakes his head, disappointment washing over his face. “Well, son, that wasn’t the answer I was looking for.” Upon a second glance, he looks more annoyed than disappointed. “I gave you this deal in the beginning of summer, and you’ve dragged your feet the entire time; I need this land before fall. I don’t wanna ask again.” His face darkens with rage. “And trust me. I am not a man you want to make enemies with. Are we clear?”
+
+[[ "Yes sir" -> BitchMade]]
+[[ "You can't intimidate me!" -> StandUpForYourself]]
+
+
+:: \ PendellMeeting2 {"position":"1125,2650","size":"100,100"}
+The following weeks are filled with strife and struggle; the work is long, the days hot and humid as you break your back towards the crop yield. The offer keeps radiating in your mind, until one fine afternoon, when you have finished your work. After another long day of maintaining your farm, the clop of hooves greets you from the road to the farm. It’s Pendell Sauvage. He steps off his steed, dressed in dark, formal clothes. “How do you do, son? I take it you’ve had time to consider?” He looks expectantly, like he’s willing you to sell to him with his eyes. 
+
+
+[[ "Yes, I'll sell to you." -> PendellSale1]]
+[[ "No, I'm not selling it to you.'' -> PendellIsPissed]]
+
+
+:: \ PendellSale0 {"position":"450,2525","size":"100,100"}
+
+
+GAME OVER
+
+He shakes your hand with conviction. “Good deal, son! Now, I’ll get everything ready. You just sign the deed and we’ll be settled.” You sign wherever it says to, and go back home to pack up. Your life as a farmer ends that day, but you start anew in the oil fields of Petrolia. Your story will not be remembered for surviving the harshness of winter, but you will live the rest of your days in relative comfort. 
+
+ENDING: Take the Money and Run
+
+[[ Let's do it all again! -> SummerStart]] 
+
+
+
+:: \ PendellSale1 {"position":"1012.5,2775","size":"100,100"}
+GAME OVER
+
+You shake his hand in your field as you both ride back into town, to his manor. 
+
+He shakes your hand with conviction, at that same table you had first spoken at, the house still seeming as opulent as ever. “Good deal, son! Now, I’ll get everything ready. You just sign the deed and we’ll be settled.” You sign wherever it says to, and go back home to pack up. Your life as a farmer ends that day, but you start anew in the oil fields of Petrolia. Your story will not be remembered for surviving the harshness of winter, but you will live the rest of your days in relative comfort. 
+
+ENDING: Take the Money and Run
+
+[[ Let's do it all again! -> SummerStart]] 
+
+
+
+:: \ PendellShootsFirst {"position":"1137.5,4025","size":"100,100"}
+GAME OVER
+
+You raise your rifle to your hip, and go to squeeze the trigger; unfortunately, you’re met with his own answer. You collapse to the ground, a hole forming in your chest. You die, but at least you fought for something.
+
+ENDING: Missed 100% Of The Shots You Took
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: \ ReadLetter {"position":"762.5,1525","size":"100,100"}
+
+
+You take the parchment in your hand; it’s well wrapped and looks official enough. You take out the note, and hold it up to the light:
+
+“To whom it may concern,
+
+My name is Pendell Sauvage, and I believe your property is worthwhile for my personal farming endeavours. I am willing to discuss a purchase of your land. Please come into Guelph and meet me at my property; we will talk more there.
+
+I look forward to your cooperation,
+Pendell Sauvage.”
+
+Your eyes narrow. What does he want with your land? You find your purse of coin, and prepare to head to the city.
+
+[[ To town you go! -> GeneralShoppe]] 
+
+
+:: \ RefuseToSell {"position":"1137.5,4650","size":"100,100"}
+You declined the offer, the land is too important for you and your family and no amount of money can make you sell. You send Mr. Lane a letter saying: "Thank you for your offer but the land is too important for me."
+
+Some weeks later the construction of the railways starts, even though it doesn't go through your land the railway is close enough to you so you can take advantage. Thanks to the railway the business is booming, and your products are in demand in the town and in Toronto, this helps you expand the farm and you make more money than you were offered by Mr. Lane.  
+
+[[ You win! Go on to Winter -> WinterStart0]]
+[[ Want to try again and see what else this game has to offer? -> FallStart]] 
+
+
+:: \ ReturnToFarm0 {"position":"637.5,2025","size":"100,100"}
+
+
+You return back to work, planting the majority of your seeds before the day is over. You do end up reading the note, learning of the offer, but you barely have time to think it over before exhaustion kicks in.
+
+[[ Go to sleep-> PassOut1]]
+
+
+:: \ RifleHit {"position":"1012.5,3275","size":"100,100"}
+You feel the recoil in your shoulder as the bullet rips through the air, hitting your assailant in the chest. He falls off the horse, flinging his pistol into the air. You rush home, slinging the rifle over your shoulder, where a familiar figure to you is waiting: Pendell Sauvage.
+
+[[ Confront the Businessman -> ConfrontPendell]]
+
+
+:: \ RifleInRucksack {"position":"887.5,3150","size":"100,100"}
+You find your trusty rifle, drawing it up to your eye level. You have one solid chance at a shot before he has a chance to respond with a salvo of his own. You concentrate on the shot, squeezing the trigger.
+
+[[ This is a coin flip: click here to see if you hit! -> RifleMiss]]
+[[ This is a coin flip: click here to see if you hit! -> RifleHit]]
+
+
+:: \ RifleMiss {"position":"887.5,3275","size":"100,100"}
+GAME OVER
+
+You fire your weapon true, letting the bullet fly through the air. Time seems to slow as the bullet pierces the air, and thuds into a nearby tree. Turns out, it’s a lot harder to hit a moving target than you think. Your foe on horseback behind you responds, this time shooting true. Your body collapses into the ground, your steed slowing to a halt as your final breath escapes your lungs.
+
+ENDING: I Fired, And I Missed
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: \ RunRunaway {"position":"1012.5,3775","size":"100,100"}
+GAME OVER
+
+You decide that you can’t bear to face him, even if you know what it will bring. You saddle up, running far away from the town of Puslinch. Little is known of what happens to you, although rumours circulate; some believe you found new life in Ottawa, whilst some think you turned tail back to Europe. Only you know what really transpired. As for Pendell, he took control of the farm you called home, and his stake politically in the town grew and grew.
+
+ENDING: Run Runaway
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: \ RushTheBastard {"position":"887.5,3775","size":"100,100"}
+You ready yourself; do you have the rifle?
+
+[[ Yep! I raise it up to my eye -> ShootTheBastard0]]
+[[ Nope, I sprint at him -> GetShotByTheBastard]]
+
+
+:: \ SauvageHouse {"position":"512.5,2025","size":"100,100"}
+
+
+You take your trusty steed to the property; a grand mansion extends out to you, made of oak and pine wood. The house seems to stretch across the countryside, the nearest piece of property being kilometres away. You walk up the steps for the door, coming to the entrance.
+
+[[ Knock politely -> Civility]]
+
+
+
+:: \ SeatTaken {"position":"512.5,2400","size":"100,100"}
+
+
+You sit down, the table sturdy and firm. A womanly figure walks over with a kettle and two cups, pouring precisely into your cup before getting to Pendell’s. He watches attentively as she pours, the liquid pouring over the cup. He slams the table, perhaps enraged at what he perceived as a slight. “Goddamn it! Are you trying to soil the paper?” She looks ashamed, walking out of the room. “Women, my friend; you just can’t teach them”. You stay silent. He goes on about the details for the property you own, the discussion led by candlelight. “My offer is not a modest one, my friend. I am willing to see you paid to the tune of, shall we say, 10 pounds per acre? That would be about, let’s see… 350 pounds for you to run away with, if you so desire.” Your eyes widen; that’s more money than you’ve ever seen. 
+
+[[ Take the deal and don't look back -> PendellSale0]]
+[[ You can't just walk away with that little info; probe for more detail -> AskQuestions]]
+
+
+:: \ SecureLivestock {"position":"1137.5,6025","size":"100,100"}
+your animals survived the storm 
+
+
+[[Continue on->midwintercrisis]]
+
+
+:: \ SellLand2 {"position":"1012.5,4650","size":"100,100"}
+The idea intrigues you so you decide to sell a small part of your land, now you're left with half of your original land. 
+Even though your production lowers is not enough to have a big impact and the farm continues to be profitable. The land you sold turned into a horse ranch, so you partner up with them and both businesses grow together. After some time, you see how other farms start to close as they can't keep up and those farms are sold and turned into homes, hotels and other things. 
+
+Your farm shares a similar fate, and you are forced to sell off the rest of your land.
+
+[[ Game over. Try again? -> FallStart]] 
+
+
+:: \ ShootTheBastard0 {"position":"887.5,3900","size":"100,100"}
+You aim the rifle, catching him off guard. You squeeze the trigger as a loud bang smashes against your ears. The bullet travels through the air, and when you regain your senses, Pendell lays on the ground, a bloody hole forming in his pristine outfit. He lets a laugh escape his lungs. “Nice… nice shooting, son.” He smiles widely as his body ceases moving; Pendell Sauvage is dead. You take a second, processing the shock of gunning a man down, and you take a seat on the ground next to the body.
+
+[[ Throw his body into a creek -> PendellCreek]]
+[[ Bury the body -> PendellGrave]]
+
+
+:: \ SprintOut {"position":"762.5,3025","size":"100,100"}
+Adrenaline courses through your veins as you prepare to sprint. The barkeep, sensing your eagerness to flee, points you to the back, and you manage to get out as the men crowd into the pub. One spots you as you call your horse, making a beeline for the barn. The clapping of hooves against the ground spurns you on; what has Pendell got in store for you? He clearly has ambitions to take this town, and he will not stop at some measly barnowner; he has shown his fangs. As you ponder, you hear a sharp yell; you were followed, your assailant trailing you through the muddy backroads. You have no time to think as you search through your rucksack.
+
+[[ You fail to find. Shit. -> NothingInRucksack]]
+[[ You grab your trusty, rusty rifle -> RifleInRucksack]]
+[[ You grab your oil lantern, an idea striking your mind -> LanternInRucksack]]
+
+
+
+:: \ StandUpForYourself {"position":"1262.5,2900","size":"100,100"}
+Pendell shakes his head. “Pah, no need for that, son. I don’t intimidate, I promise.” He saddles up and rides into the city once more, albeit the days between your next run in with Pendell are short. You awake one night to the sounds of chatter outside your home.
+
+[[ Go investigate the noise -> FarewellToArms]]
+[[ Go back to bed -> PassOut2]]
+
+
+:: \ StayAndListen {"position":"762.5,2775","size":"100,100"}
+The server walks over to the man, feigning a pleased voice. “Hey sir! What can I do for you?” His voice trembles with fear as the man chuckles. “No need to act like you don’t know me, Bruce. I come on behalf of Sauvage.” He moves his jacket back to reveal a leather holster, an iron grip emerging from it. “You’ve made your mind up, I take it?” He stares daggers into the barkeep. “Come on, Doug, it’s a big choice-” he sputters out, before being cut off. “Listen, boy. I was told to take this deed by any means, and it’s looking like I need to use some violence because of your lack of, shall we say, cooperation? So let’s make it clear. You accept his offer, get off his property, and this is the end of it.” He fidgets with his holster. “Or, I burn this place down with your body inside it. Sounds good?” As the conversation reaches its peak, you feel compelled to intervene
+
+[[ Interviene -> InterventionInbar]]
+
+
+:: \ SummerCredits {"position":"512.5,1275","size":"100,100"}
+CREDITS
+
+
+Super special thank you to Dr. Kim Martin, the one who's class I made this project for! Thank you to all of my group members for the effort they put into their parts, Alex, Diego and Graeme. Thank you to the rest of the students of CTS*3020 for their inputs, thank you to anyone who proofread this project (which at times felt like a fever dream) and thank YOU, the player; you’ve truly made this what it is. Enjoy! :)
+
+Lee R, 2024 
+
+[[Take me back to the intro -> SummerStart]] 
+
+
+:: \ SummerEndings {"position":"762.5,1275","size":"100,100"}
+ENDINGS
+
+Take the Money and Run - Accept Pendell’s deal at any time
+I Fought the Rich (And the Rich Won) - Ask too many questions at a poor time
+Quick Drawn - Be the second fastest on the draw
+Up in Flames - Get your beauty sleep at a poor time
+Pays To Be Prepared - Fail to find what you need at a poor time
+I Fired, And I Missed - Lose a game of chance
+Not So Dexterous - Have a genius idea go up in flames
+Pendell Shot First - Swing at Pendell at a poor time
+Run Runaway - Scramble out of your own duel
+Missed 100% Of The Shots You Took - Lose the duel against Pendell
+The Good, The Bad, and The Sauvage - Win the duel against Pendell
+Midnight Firefight - Take Pendell by surprise, and end the nightmare
+Farewell to Arms - Scare Pendell away from Puslinch
+
+[[Take me back to the intro!-> SummerStart]]
+
+[[Take me to the credits -> SummerCredits]] 
+
+
+:: \ SummerStart {"position":"637.5,1150","size":"100,100"}
+
+SUMMER (Lee Rovers)
+
+In the summer, the political landscape of the farming community begins to take center stage. This project was done to illustrate the politics of the day, and how the rich could use their money to buy themselves into farming communities. Based on several families who would own vast amounts of land, and based on what is shown in the archives, these people helped to paint a story of what pre-Confederacy farming politics could look like.
+
+DISCLAIMER: This is a highly dramatized work of fiction, and while it is based on real stories, this should not be taken as historically accurate.
+
+CONTENT WARNING: Many of the endings involve death in many ways; this game has several endings that describe death and violence. Viewer discretion is advised.
+
+[[Continue->NextStepSummer]]
+[[ Wait, I'd like to see the endings! -> SummerEndings]]
+[[ I'd like to see the credits for this game! -> SummerCredits]]
+
+
+:: \ TalkToMan {"position":"762.5,2650","size":"100,100"}
+The man looks up wearily from his stupor. Through a wave of drunk sorrow, he mutters to you. “Whatcha want, boy? I’m in no mood for talking”. You sit by him, letting him talk. “That damn French bastard…” your mind immediately jumps to Sauvage as he continues. “I used to have one of the greatest farms this side of the Isles and he came demanding everything.” His voice switches to a mocking French accent, with that same slurred speech that had inhabited his previous ranting “Oui oui monsieur! I buy your farm, I SCAM you for your land..” He returns to sorrowful moans. “Oh, if grandpa saw me…” He turns back into his arms and continues sobbing, a clear indicator that his conversation is over. The barkeep walks over to the two, looking at the drunkard with a tinge of sadness in his eyes. “Poor guy. That Sauvage… he’s tried to buy the Hen at least 3 times now. Scourge of the land, I say.” As if his words spoke it into existence, a man walks through the door of the saloon. A roughly dressed man, dirty and hunched over walks his way to the bar. The barkeep’s expression turns sour immediately as he drops everything to serve the man.
+
+[[ Stay and pay attention -> StayAndListen]]
+[[ Leave Immediately -> LeaveBar]] 
+
+
+:: \ WalkFarm2 {"position":"762.5,2400","size":"100,100"}
+You continue, lost in thought, until you hear a snap of a twig. Your body instinctively turns around quickly, a figure obfuscated by shadows on the edge of your property stands still. 
+
+[[ Approach the figure -> ApproachFigure]]
+[[ Ignore it, probably a deer -> JustADeer]]
+
+
+:: \ WalkOutDenOfOpulence {"position":"575,2650","size":"100,100"}
+\:: If you tell him you'll need to think it over
+
+“Of course, son. Big choices need time, I’m sure you’ll come to your senses. Here, it’s getting late. My associate will trail you home; wouldn’t want anything to happen to you, you know. Take care!” You ride your horse back with the associate, on his own steed. He says little, and once you arrive back home he leaves without a second glance. Exhausted, you lie down, knowing little of what is to come.
+
+[[ Go to sleep-> PassOut1]] 
+
+
+:: \ WalkTheFarm {"position":"762.5,2275","size":"100,100"}
+ You amble through your property, lost in thought. Through the crops, you feel muddled in your choices. This property has meant so much to you, passed through your family, but the money…
+
+[[ ... -> WalkFarm2]]
+
+
+
+:: \ WeatherPrep {"position":"1137.5,5275","size":"100,100"}
+With a limited amount of resources, you must make a choice: 
+
+**Choice 1:**
+
+*Invest in Weather Preparation:* Gather resources and store food for your family and livestock, and reinforce your housing against the weather. It is a cautious choice, but it could save you and your animals when the snow comes.
+
+
+
+Your future depends on this decision. Choose wisely.
+
+[[Continue ->the next choice ]]
+
+
+
+:: \ WinterStart0 {"position":"1300,4525","size":"100,100"}
+WEATHER EVENT!
+
+Just as the fall weather begins to turn into the crispy, cold air of winter, you notice that it begins to unexpectedly downpoor with rain.
+
+At least it's not snow... you think to yourself.
+
+The rain gets worse and worse, to a point where you begin to worry about the possibility of flooding.
+
+What do you do to prepare?
+
+[[Dig a trench around the barn to divert the water away from your livestock and the rest of your farm|DigTrench]]
+[[Stack sandbags in front of the barn to block the water from getting in|Sandbags]]
+
+
+:: \ WinterStart1 {"position":"1137.5,4775","size":"100,100"}
+ HistoricalContext
+**Brief Historical Context of Puslinch in 1845**
+
+In the late 1800s, Puslinch, a township in Wellington County, Ontario, was primarily a rural agricultural community. The area attracted immigrants, especially Scottish settlers drawn by the fertile farmland. By the mid-1840s, the settlers had cleared much of the forested land for farming, and small townships such as Aberfoyle began to form as local hubs. The economy of the area heavily relied on timber and agriculture.
+
+Churches and schools were beginning to be established, meeting the needs of the growing population.
+
+Historical data from scholarly sources regarding the weather in Puslinch in the 1800s and documents from Wellington County, as well as pages from books from the 1800s that discuss how people viewed weather back in the day, will be incorporated into this story.
+
+[[Continue->next part]]
+
+
+
+:: \ basic instruments {"position":"1262.5,5775","size":"100,100"}
+[[ You unfortunately lose the game basic tools were not enough to scale the storm coming your way -> WinterStart1]] 
+
+You choose to rely on basic instruments. Use your tools to track pressure changes and wind direction, relying on data over tradition. It’s a calculated approach, but one that may lack the nuances of local knowledge.
+
+
+
+
+:: Almanac {"position":"1137.5,5525","size":"100,100"}
+Eclipses of 1845
+The settlers of Puslinch viewed the eclipses of 1845 as ominous harbingers of nature's fury. The October 30th partial lunar eclipse was described in Moore’s Almanac as a "celestial event of great significance," casting the moon into an eerie shadow. Though largely unseen in Puslinch, whispers of its impact spread through the community. In November, a solar eclipse visible in Australia and New Zealand plunged parts of the world into darkness. Its news reached the settlers as a forewarning of harsh weather.
+
+Quotes from Moore’s Almanac: "The night of October 30th saw the moon disappear—a phenomenon whispered to foretell great storms."
+Artistic Renderings: Illustrations of eclipses from the 19th century to enhance visual storytelling.
+
+Meteorological Observations from Moore’s Almanac
+
+
+The weather of 1845 was a test of endurance for the settlers. Drawing from Moore’s meticulous records, the year unfolded with striking ferocity:
+January: "Very mild and stormy, with thunder during the former half. A tremendous gale on the 13th brought the barometer to its lowest point in 21 years."
+February: "Seasonable winter weather... Much snow from the 3rd to the 7th, and again on the 14th, 15th, and 18th."
+May: "Mostly very rainy; violent storms of thunder, lightning, and hail on the 27th and 28th."
+July: "Chiefly very hot and sultry. On the 5th, the thermometer reached 90°F in the shade."
+August: "Awful thunderstorms and great hail destroyed much property in England... Sultry days alternated with sudden rains, equalling two inches in depth."
+Settlers used these observations as guides, battling against extreme cold, oppressive heat, and unrelenting storms. These patterns shaped their lives and livelihoods, intertwining survival with the whims of nature.
+
+[[ With this information in mind, you continue to the farm -> NextChoice0]]
+
+
+
+:: BalancedSelection {"position":"575,650","size":"100,100"}
+
+You have selected 2 horses, 6 pigs, 6 sheep, and 6 cattle. You move on with a balanced selection of livestock.  
+
+[[Continue->NextOption]]
+
+
+:: Barn {"position":"925,950","size":"100,100"}
+You rush to get all your livestock into the barn before the storm hits.
+
+The thunderstorm rages on, but ultimately, everyone is safe, and very minimal damage was caused by the storm.
+
+[[ SummerStart]] 
+
+
+:: BarnAndSilo {"position":"637.5,900","size":"100,100"}
+
+You have selected to have 1 fully developed barn capable of housing all your livestock, and 1 fully developed grain silo capable of storing enough food. You move on to the summer.
+
+[[Continue->NextStep0]]
+
+
+:: DigTrench {"position":"1300,4650","size":"100,100"}
+You dig a trench around the barn, successfully diverting all of the water. No major damage occurs, and you and your livestock are safe as the rain slows down.
+
+[[You may continue forward to the winter season! -> WinterStart1]]
+
+
+:: Expand the Farm {"position":"1200,6650","size":"100,100"}
+your choice to expand the farm has got you caught in the storm your animals have died[[ Try again? -> WinterStart1]] 
+
+
+:: FarewellMiss {"position":"1137.5,3275","size":"100,100"}
+Your draw isn’t quick - or accurate - enough to dissuade the assailants. You miss both of them, and they respond with weapons of their own. Your vision goes black as your ears ring from their salvo.
+
+ENDING: Quick Drawn
+
+[[ Let's do it again! -> SummerStart]] 
+
+
+:: FarmStart {"position":"700,400","size":"100,100"}
+ Welcome, fellow farmer! We are beginning your tale in the month of March, and you must choose everything you want your farm to be. It’s a fine sunny afternoon, and the snow seems to have fully melted away after that harsh winter. [[Continue->NextStep]]
+
+
+
+
+
+:: FencesAndCoop {"position":"762.5,900","size":"100,100"}
+
+You have selected 1 fence around your entire property and 1 fully developed chicken coop. This setup is not sufficient to maintain the farm with all your livestock. You look on as your chicken wanders around your property, realizing you have made a mistake somewhere along the line.
+
+[[Return->FarmStart]]
+
+
+
+:: Goood ending {"position":"1075,7025","size":"100,100"}
+Good Ending:
+Congratulations you have survived the cruel winter of Puslinch, you have managed to harvest your crops and save your animals from the terrible weather, your selective choices have brought you a long way. Your family is thanking you for your hard work and perseverance. 
+
+
+As you played this game you have learned that  weather shaped the lives of early Puslinch settlers, influencing their survival and community. Historical data was used in this story to show what the settlers experienced back then. This story also highlights the bond between humanity and nature that shows lessons that are still relevant to this day. I hope you enjoyed 
+
+[[ Go to the credits! -> CreditsGeneral]]
+
+
+:: Next part\  {"position":"1137.5,5025","size":"100,100"}
+ Stakes
+**Set the Stakes**
+
+Your choices will decide the farm's fate. Mismanaged resources and your crops will die, your animals will starve, and you will be left with nothing. But if you make strategic choices and brave decisions, you can change the odds of your survival. Every choice is crucial. Will your farm become a legacy of survival or a failure? The future lies in your hands.
+
+[[Continue->Nextpart]]
+
+
+
+:: NextOption {"position":"700,775","size":"100,100"}
+
+FARM LAYOUT  
+
+You must choose what you want to be constructed on your farm. You can only pick 1 option. Your options are:
+
+- 1x Barn, 1x Grain Silo
+- 1x Fences, 1x Chicken Coop
+
+From the selection above, select one to continue forward with.
+
+[[1x Barn + 1x Grain Silo->BarnAndSilo]]  
+[[1x Fences + 1x Chicken Coop->FencesAndCoop]] 
+
+
+
+
+:: NextStep {"position":"700,525","size":"100,100"}
+
+LIVESTOCK  
+
+You must choose from a selection of 20 livestock for the start of your farm. Your options are:  
+
+- 2 Horses, 6 Pigs, 6 Sheep, 6 Cattle  
+- 4 Horses, 4 Pigs, 4 Sheep, 8 Cattle  
+
+From the selection above, pick the option that best suits your vision for the farm.  
+
+[[2 Horses, 6 Pigs, 6 Sheep, 6 Cattle->BalancedSelection]]  
+[[4 Horses, 4 Pigs, 4 Sheep, 8 Cattle->SkewedSelection]]  
+
+
+
+
+
+
+
+
+
+
+:: NextStep0 {"position":"500,1125","size":"100,100"}
+
+
+You have picked the layout of the farm, and you are ready to face whatever comes your way. 
+
+But first, something about the sky feels off...
+
+[[Continue->Weather Event 1]]
+
+
+:: NextStepSummer {"position":"637.5,1275","size":"100,100"}
+Introduction to Summer
+
+You awake from your simple bed, the same way you had awakened many times last season. A warm breeze floats in through the ajar window of your small wooden house, and the cicadas cry out; the summer, and the growing season has commenced. You mentally take stock of your funds as you rise, your bed creaking and groaning as your weight eases off; you have enough coin for a small bag of wheat kernels, but nowhere near enough to feed yourself and keep the property maintained well enough. You start to turn over the possibilities, as you go to open the door.
+
+[[ Open the Door -> NextStepSummer0]]
+
+
+
+:: Nextpart {"position":"1137.5,5150","size":"100,100"}
+The wagon creeks to a halt on the edge of an untamed plot of land. Towering pines border the clearing, and the hum of wind carries the promise of opportunity and hardship. You get off the wagon to see your new land, but its potential depends on your choices. The first task is to set up your farm before winter rolls in. The crisp autumn air is a sign of the coming winter. You have a feeling that the decisions you make now will echo through the seasons ahead. 
+
+With a limited amount of resources, you must make a choice: 
+
+**Choice 1:**
+
+*Invest in Weather Preparation:* Gather resources and store food for your family and livestock, and reinforce your housing against the weather. It is a cautious choice, but it could save you and your animals when the snow comes.
+
+*Focus Resources Elsewhere:* Use your supplies to expand your farm, plant extra crops, purchase additional animals, or build tools to increase efficiency. It’s a gamble that could lead to prosperity or leave you vulnerable to nature’s fury.
+
+Your future depends on this decision. Choose wisely.
+
+[[ Invest in preparation for the weather -> WeatherPrep]]
+[[Focus Resources Elsewhere -> FocusElsewhere]]
+
+
+
+
+:: Prepare for the Next Storm {"position":"1075,6650","size":"100,100"}
+your choice to prepapre for the next storm has saved the farm [[Continue on ->The Final Challenge]]
+
+
+
+:: Prioritize {"position":"925,1075","size":"100,100"}
+You decide to prioritize your own safety and leave your livestock outside. As the storm passes, you discover that one of your pigs was struck by lightning, instantly killing it. Thr smell of freshly cooked pork fills the air of your farm. You move on with one less pig.
+
+[[ SummerStart]] 
+
+
+:: Prioritize Safety {"position":"1075,6900","size":"100,100"}
+your choice to prortize safety has saved your farm congrats you have survived the harsh Puslinch winter [[Goood ending]]
+
+
+:: Ration Supplies More Strictly {"position":"1200,6275","size":"100,100"}
+Your supplies have run out and you and your family starved [[ You die, restart? -> WinterStart1]]
+
+
+:: Risk Resources to Save the Farm {"position":"1200,6900","size":"100,100"}
+you have risked your reasources and the winter has gotten the best of you. Better luck next time! [[ Try again? -> WinterStart1]] 
+
+Your farm has collapsed, your animals have starved to death and your family is sick. You are forced to abandon your efforts and reflect on the harsh realities of early settlement life. 
+
+
+
+
+:: SafeLocation {"position":"1250,2525","size":"100,100"}
+You rushed yourself to safety, ensuring your own survival. However, your livestock were left to face the tornado head on by themselves. They put on a brave face, but unfortunately the tornado lifted them all of their feet as they get flown into the next town over, killing them all.
+
+[[ Well, didn't need that many sheep anyway. -> PendellMeeting2]] 
+
+
+:: Sandbags {"position":"1425,4650","size":"100,100"}
+You stack sandbags in front of the barn, and while it initially holds, the water quickly rises and seeps through the walls and the foundation.
+
+The barn floods, damaging supplies and livestock.
+
+[[You have lost the game and must return to the start of the fall. -> FallStart]] 
+
+
+:: SecureCrops {"position":"1262.5,6025","size":"100,100"}
+Your animails have died in the storm 
+
+
+[[You have chosen the wrong choice; back to the start-> WinterStart1]] 
+
+
+
+
+
+:: Secured {"position":"1225,2400","size":"100,100"}
+The tornado has passed, and you and your livestock are okay! Your farm has suffered from some damage, but it's totally repairable.
+
+[[ Repair the farm and get back to work! -> PendellMeeting2]] 
+
+
+:: SkewedSelection {"position":"700,650","size":"100,100"}
+
+You have selected 4 horses, 4 pigs, 4 sheep, and 8 cattle. You move on with a slightly skewed selection of livestock.  
+
+[[Continue->NextOption]]
+
+
+:: The Final Challenge {"position":"1075,6775","size":"100,100"}
+Just as winter lightens up and you think you are safe, the final storm you have ever seen descends with fury. The winds howl, snow falls in heavy drifts and the temperatures reach record lows. The storm threatens not only your resources but the safety of your barn and house. 
+Historical records warn of such late-season storms. A note from Environment and Climate Change Canada comes to mind: “Winter storms often increase in intensity as the season closes, especially in regions with high precipitation records.”
+The settlers’ tales echo, too. One says, “In times like these, you must choose—what do you value most? Safety or survival?”
+
+[[Prioritize Safety]]   
+ Focus on protecting your household and settlers, keeping everyone safe from harm. This will sacrifice parts of the farm infrastructure but ensure survival.
+Outcome: Morale and health remain intact, but farm resources are significantly depleted.
+Risk Resources to Save the Farm
+
+ [[Risk Resources to Save the Farm]]
+
+Send workers out into the storm to reinforce buildings, clear paths, or rescue livestock. It’s a bold move but endangers lives.
+Outcome: The farm survives largely intact, but injuries or losses among settlers lower morale and productivity.
+
+
+
+:: Trade with Nearby Settlers {"position":"1075,6275","size":"100,100"}
+you have made the right choice and now have supplies to tough out the storm onto the next challenge [[Continue! ->meteorological observations ]]
+
+
+:: Untitled Passage {"position":"700,275","size":"100,100"}
+Welcome to the town of Puslinch, Ontario! Your task is to successfully manage a farm throughout the year. You will be faced with various obstacles, including storms, animals, politics, and urbanization. 
+
+Your choices will determine the fate or success of the farm. Live or die, survive or prosper—the choice is yours.
+
+[[Begin Your Journey->FarmStart]]
+
+
+
+:: Weather Event 1 {"position":"675,1025","size":"100,100"}
+WEATHER EVENT!
+
+The clouds above you are looking pitch black, a thunderstorm must be rolling in!
+
+Do you:
+
+[[Rush your livestock into your barn for safety|Barn]]
+[[Leave your livestock outside and prioritize your own safety|Prioritize]]
+
+
+:: Weather Event 2 {"position":"1050,2475","size":"100,100"}
+A tornado is approaching! You must think on your feet and choose one of these two options:
+
+[[Leave your livestock outside and rush yourself to a safe location to take cover|SafeLocation]]
+[[Rush your livestock into the barn and ensure the entrance is closed, locked, and secured|Secured]]
+
+
+:: continue to the storm {"position":"1137.5,5900","size":"100,100"}
+ Facing the First Storm
+
+The sky darkens quickly as a vicious storm sweeps across your farm. The wind is howling through the trees and heaps of snow begin to fall from the sky threatening everything that you have worked for. You don’t have time to save everything, and your livestock needs shelter, but your crops, which are still unharvested, could be ruined by the freezing winds.
+
+
+ Outcome
+The choice you make will determine how well you weather the storm and what remains of your resources.
+
+What do you do?
+
+[[ Secure the crops ->SecureCrops]]
+[[ Secure livestock -> SecureLivestock]]
+
+
+:: meteorological observations\  {"position":"1075,6400","size":"100,100"}
+The weather of 1845 was marked by chaotic fluctuations, as detailed in Moore's Almanac. The settlers, who had lived through such extremes, now look back at the year with a sense of foreboding. The weather patterns described, mirror your struggles today, as nature's unpredictability tests their resolve.
+
+The meteorological observations for 1845 vividly illustrate the chaotic weather patterns settlers endured. “ The year began calmly but soon descended into a series of storms, oppressive heat, and heavy rains.”  These erratic changes reflected the year's astronomical occurrences, particularly the eclipses, which many people considered signs of nature's fury.
+
+
+Excerpts from Moore's Almanac:
+May: "Mostly very rainy, with oppressive heat recorded on July 5th."
+July: "The heat was excessive on the 5th, with the thermometer at 90°F in the shade."
+August: "Awful storms marked the month, with sunshine and sudden downpours, leaving property destroyed and crops at risk."
+Winter: "The cold grew relentless, beginning with alarming thunderstorms, signalling the onset of a harsh winter."
+These observations were made along with predictions of celestial phenomena, particularly the 1845 eclipses, which were interpreted as a sign of impending difficulties and storms. Now when you are dealing with running out of supplies and uncertain survival, the link between the erratic weather and the celestial events seems more obvious. [[ You experience a break in the weather -> A Break in the Weather]]
+
+
+
+
+:: midwintercrisis {"position":"1137.5,6150","size":"100,100"}
+ Mid-Winter Crisis
+
+ 
+The weeks of relentless cold have shortened your supplies. The shelves in your pantries are almost dried up. The snow outside is thick making travel dangerous. The nearby neighbors may have resources to spare if you are willing to trade. Stricter rationing, on the other hand, can stretch your supplies but run the risk of undermining your home.
+
+
+
+[[Trade with Nearby Settlers]]
+You brave the cold to barter for food and supplies. This could secure what you need but comes with risks and the possibility of unfavorable deals.
+
+[[Ration Supplies More Strictly]]
+You cut back on daily portions to make what you have last longer. It’s safer, but it could harm morale and strength during the harsh winter.
+
+
+
+:: next part {"position":"1137.5,4900","size":"100,100"}
+PlayerRole
+**Introduction to the Player’s Role as a Settler Managing a Small Farm**
+
+As a settler in Puslinch, Ontario, your task is to manage a small farm amidst the challenges of the 1840s. Grounded in historical weather data, the game highlights how environmental conditions shaped daily life, survival strategies, and settlers' resilience. Your ability to adapt and respond to these challenges will determine the fate of your farm, offering an engaging way to explore the environmental difficulties of the early Puslinch settlement.
+
+Overview of the Environmental Challenges:
+Life on a farm is unforgiving. Nature's wrath is evident in every decision you make. The harsh weather, with freezing temperatures and snow, will affect your land, crops, and livestock. The unforgiving winter storms, coupled with unpredictable weather patterns, will test your ability to keep your farm thriving. Your survival depends on how well you can navigate these challenges—planting the right crops, building sturdy shelters, and ensuring your livestock’s health amidst adverse conditions.
+
+[[Continue->Next part ]]
+
+
+
+:: the next choice\  {"position":"1137.5,5400","size":"100,100"}
+**Scene 2: The Frost Forms and Warnings Echo**
+
+The frost slowly forms across the fields, and you notice that the air and the sky are different. Fellow settlers speak of harsh winters and storms; they have shared tales of past winters through generations of people. Some recount the Eclipse of the Sun and Moon in 1845 as a sign of unpredictable weather patterns, warning of nature’s sudden shifts. You’ve heard these stories but wonder if there’s truth in them. You also have access to a local almanac written by Moore on meteorological observations that discuss weather patterns and observations of the moon and sun.
+
+*What will you do?*
+
+- Read the local almanac to learn more about historical weather data and predictions.
+
+[[Continue->Almanac]]
+
+
+
+
+:: trustlocalfolk {"position":"1137.5,5775","size":"100,100"}
+[[continue to the storm]]
+
+You choose to trust local folklore. Will you follow the other local settlers' advice to look at the color of the sky at dusk and the behavior of the animals? You also must look at the ring around the moon for guidance. It sounds a bit fishy, but it is rooted in lived experience.
+
+
+
